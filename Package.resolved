@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "bluesocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueSocket.git",
+      "state" : {
+        "revision" : "7b23a867008e0027bfd6f4d398d44720707bc8ca",
+        "version" : "2.0.4"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "6fe203dc33195667ce1759bf0182975e4653ba1c",
+        "version" : "1.4.4"
+      }
+    },
+    {
+      "identity" : "swiftmsgpack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftMsgPack.git",
+      "state" : {
+        "revision" : "6a9b7d73f78cd0f7e5ad280fde39a347f15baaf7",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
