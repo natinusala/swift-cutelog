@@ -68,7 +68,7 @@ public struct CutelogHandler: LogHandler {
 }
 
 /// Holds connection to a cutelog instance at a given address and port.
-/// Use ``handler(label:, logLevel:)`` to make a swift-log handler.
+/// Use ``handler(label:logLevel:)`` to make a swift-log handler.
 public class CutelogLogger {
     enum State {
         case closed
