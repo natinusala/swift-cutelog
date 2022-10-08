@@ -15,7 +15,7 @@
 */
 
 /// Default port as defined by the cutelog GUI.
-public let defaultCutelogPort: Int = 19996
+public let defaultPort: Int = 19996
 
 enum InternalCommand: String {
     /// Changes format of log messages between the app and cutelog.
