@@ -23,6 +23,12 @@ let package = Package(
                 .product(name: "Socket", package: "BlueSocket"),
                 .product(name: "Logging", package: "swift-log"),
             ]
+        ),
+        .executableTarget(
+            name: "Demo",
+            dependencies: [
+                "Cutelog"
+            ]
         )
     ]
 )
