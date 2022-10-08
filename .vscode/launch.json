@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug Demo",
+            "program": "${workspaceFolder:swift-cutelog}/.build/debug/Demo",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cutelog}",
+            "preLaunchTask": "swift: Build Debug Demo"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release Demo",
+            "program": "${workspaceFolder:swift-cutelog}/.build/release/Demo",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cutelog}",
+            "preLaunchTask": "swift: Build Release Demo"
+        }
+    ]
+}
