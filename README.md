@@ -1,5 +1,9 @@
 # swift-cutelog
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnatinusala%2Fswift-cutelog%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/natinusala/swift-cutelog)
+
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnatinusala%2Fswift-cutelog%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/natinusala/swift-cutelog)
+
 Standard swift-log handler for [cutelog](https://github.com/busimus/cutelog).
 
 Allows displaying local logs in a GUI with searching and filtering features (similar to [NSLogger](https://github.com/fpillet/NSLogger)).
